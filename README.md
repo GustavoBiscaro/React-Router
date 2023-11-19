@@ -21,3 +21,27 @@ Este comando gera o template básico de um projeto, podendo ser react.
 npm **install** axios e react-router-dom
 ## React-router-dom
 O **React Router Dom** é uma biblioteca para o React criada com o objetivo de resolver problemas de rotas para as páginas de um site e tornar o desenvolvimento muito mais simples e escalável.
+
+# Para executar
+2.1) cd rotas
+2.2) npm run dev
+
+# Extensão
+ES7 + React/Redux/React-Native Snippets
+
+**Comando utilizado:** rafce
+
+## createBrowserRouter
+
+Através de uma função chamada de createBrowserRouter() que recebe um array, onde cada item desse array possui um caminho, um elemento e se possui filhos, quais são eles.
+
+## RouterProvider
+
+Os objetos são passados para esse componente para renderizar seu aplicativo e habilitar o restante das APIs de dados.
+
+## Outlet
+
+Um outlet deve ser utilizado numa rota do pai para renderizar os filhos.
+
+## Link
+A <Link> é um elemento que permite ao usuário navegar para outra página clicando ou tocando nela. No react-router-dom, uma <Link> torna um acessível <a> elemento com um real href isso aponta para o recurso ao qual está vinculado. Isso significa que coisas como clicar com o botão direito do mouse em um <Link> trabalhe como seria de esperar. Você pode usar <Link reloadDocument> pular o roteamento do lado do cliente e deixar o navegador lidar com a transição normalmente ( como se fosse um <a href>).

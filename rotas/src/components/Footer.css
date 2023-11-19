@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    background-color: rgb(131, 8, 247);
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.footer h3 {
+    color: #fff;
+}
