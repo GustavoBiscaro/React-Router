@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.taskContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 5px;
+    padding: 20px;
+    background: linear-gradient(45deg, rgb(10, 14, 233), rgb(0, 153, 255));;
+}
+
+.taskContainer h1 {
+    margin: 15px;
+}
+.taskContainer input {
+    padding: 15px;
+    font-size: 1em;
+    font-weight: bolder;
+}
+.taskContainer button {
+    margin: 15px;
+    padding: 15px;
+    font-size: 1em;
+    font-weight: bolder;
+    background-color: rgb(131, 8, 247);
+    color: white;
+    border: 2px outset rgba(219, 9, 247, 0.7); ;
+}
+
+.taskContainer button:hover {
+    background-color: rgba(219, 9, 247, 0.7);;
+    border: 2px outset rgb(131, 8, 247);
+    color: #fff;
+}
+.containerEdit {
+    display: flex;
+}
+

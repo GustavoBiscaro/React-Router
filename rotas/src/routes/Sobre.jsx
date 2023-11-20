@@ -21,22 +21,28 @@ const Sobre = () => {
  
 
     } catch (e) {
-      console.log(e);
+      console.log("Erro: " + e);
     }
 
-  }
+  };
 
   useEffect(() => {
-
     getQuote();
-
   }, []) //Será executado uma única vez
 
   return (
-    <div>
-      <h1>Filosofia do site</h1>
-      <h2></h2>
+    
+    <div className="mainContainer">
+      <h1>Sobre a organização</h1>
+      <h4>Tentamos conscientizar as pessoas para um futuro economicamente e ecologicamente sustentável!</h4>
+      <div className="filosofias">
+      <h2>Filosofia do site</h2>
+      {
+     <h3><p>Reflexões: </p>{quote}</h3>
+      }
+      </div>
     </div>
+    
   );
 };
 
