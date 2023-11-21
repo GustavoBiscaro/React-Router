@@ -27,6 +27,11 @@ O **React Router Dom** é uma biblioteca para o React criada com o objetivo de r
 <br>
 2.2) npm run dev
 
+# Para funcionamento, é obrigatório:
+1) npm install
+2) npm i axios react-router-dom.
+Caso contrário apresentará erro.
+
 # Extensão
 ES7 + React/Redux/React-Native Snippets
 
