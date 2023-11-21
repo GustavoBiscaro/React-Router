@@ -6,8 +6,10 @@
 .mainHome {
     display: flex;
     flex-direction: column;
-    margin: 10px 0 10px 40%;
+    align-items: center;
 }
+
+
 
 .mainHome h1 {
     margin: 0px 0px 5% 0px;
